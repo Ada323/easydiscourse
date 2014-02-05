@@ -21,7 +21,7 @@ post '/contact' do
       :authentication       => :plain, 
       :domain               => 'localhost.localdomain'
   })
-  #redirect to('/thanks')
+  redirect to('/thanks')
 end
 
 get '/thanks' do
